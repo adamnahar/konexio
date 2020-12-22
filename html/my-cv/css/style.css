@@ -1,0 +1,90 @@
+body h1, h2, h3, p {
+    margin: 0;
+    background-color: blueviolet
+} 
+body {
+    color: aliceblue;
+}
+.primary-blog {
+    background-color: violet;
+    color: white;
+}
+section h3, h2, h3 {
+    text-align: center;
+}
+header, section, footer {
+    padding: 40px;
+}
+.primary-blog {
+    background-color: #0475BA;
+    color:white;
+}
+header h2 {
+    padding: 16px;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto-MediumItalic';
+    font-weight: normal;
+    src: url('../fonts/Roboto-MediumItalic.ttf');
+}
+@font-face {
+        font-family: 'Roboto-Regular';
+        font-weight: normal;
+        src: url('../fonts/Roboto-Regular.ttf');
+}
+.header{
+    background-color: white;
+    text-align: center;
+
+}
+h2{
+    font-family:'Roboto-Regular' ;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 60%;
+}
+
+footer {
+    background-color: white
+    
+}
+h3 {
+    background-color visibility: min-width: color: font-size: text-align: ;
+}
+li {
+    background-color: blueviolet
+}
+footer{
+    background-color: blueviolet;
+}
+h1 {
+    color: blanchedalmond;
+}
+ul1 {
+    background-color: blueviolet;
+}
+nav {
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 32px;
+}
+header, section, footer{
+    padding: 40px;
+}
+header {
+    text-align: center;
+}
+section h2 {
+    background-color: blue;
+}
+.liste-without-points {
+    list-style: none;
+}
+h3 {
+    color: ;
+}
