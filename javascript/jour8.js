@@ -12,3 +12,7 @@ request.get("https://api.chucknorris.io/jokes/random", function(error, response,
     console.log(getFact.value);
 })
 // 03 -pokemon
+request.get("https://pokeapi.co/api/v2/", function(error, reponse, body){
+    var getcatchPokemon = JSON.parse(body);
+    console.log(catchPokemon);
+})
