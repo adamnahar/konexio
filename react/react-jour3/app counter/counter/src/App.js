@@ -22,4 +22,4 @@ render(){
 
 }
 
-export default counter;
+export default App;
