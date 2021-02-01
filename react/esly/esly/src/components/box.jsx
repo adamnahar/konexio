@@ -1,5 +1,5 @@
-import React from "react";
-import Box from "./components/box"
+import React from 'react'
+import  React from './Components/box.jsx'
 import './App.css';
 import './styles/global.css'
 
