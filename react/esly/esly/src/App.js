@@ -1,8 +1,8 @@
 import React from "react";
 
-import Box from './components/box.jsx'
+import Box from "./components/box"
 import './App.css'
-import './styles/global.css'
+import  './styles/global.css'
 
 const tempMin = -20;
 const tempMax = 40;
@@ -12,7 +12,7 @@ const stepsMin = 0;
 const stepsMax = 50000;
 
 export class App extends React.Component {
-
+  
   render() {
     return (
       <div className="container-fluid">
@@ -33,6 +33,8 @@ export class App extends React.Component {
 }
 
 export default App;
+
+
 
 
 

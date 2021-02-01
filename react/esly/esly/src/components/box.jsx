@@ -1,33 +1,21 @@
-import React from 'react'
-import  React from './Components/box.jsx'
-import './App.css';
-import './styles/global.css'
 
-const tempMin = -20;
-const tempMax = 40;
-const heartMin = 80;
-const heartMax = 180;
-const stepsMin = 0;
-const stepsMax = 50000;
 
-export class App extends React.Component {
-  render() {
-    return (
-      <div className="container-fluid">
-        <div className="row">
-          <p>Heart: {heartMin}</p>
-          <p>Temperature: {tempMin}</p>
-          <p>Steps: {stepsMin}</p>
-        </div>
-        <div className="row">
-          <Box icon={"local_drink"} color={"#3A85FF"} value={1.5} unit={"L"}/>
-          <Box icon={"directions_walk"} color={"black"} value={3000} unit={"steps"}/>
-          <Box icon={"favorite"} color={"red"} value={120} unit={"bpm"}/>
-          <Box icon={"wb_sunny"} color={"yellow"} value={-10} unit={"°C"}/>
-        </div>
-      </div>
-    );
-  }
+import React from "react";
+
+
+class Box extends React.Component {
+
+    render() {
+        const {color, icon, value, unit} = this.props;
+        return (
+            <div className="box col-sm-3 col-6">
+                <span className="material-icons" style={{color: color, fontSize: 100}}>
+                    {icon}
+                </span>
+                <p>{value} {unit}</p>
+            </div>
+        )
+    }
 }
 
-export default App;
+export default Box;
