@@ -1,10 +1,6 @@
-
-
 import React from "react";
 
-
 class Box extends React.Component {
-
     render() {
         const {color, icon, value, unit} = this.props;
         return (
