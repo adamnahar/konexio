@@ -12,47 +12,9 @@ var double = array.map(function(tyudfjdc) {
 console.log(array);
 console.log(double);
 
-[
-	{
-		firstName: "Jane",
-		lastName: "Doe"
-	},
-	{
-		firstName: "John",
-		lastName: "Smith"
-	}
-]
 
-[
-	{
-		name: "Jane Doe"
-	},
-	{
-		name: "John Smith"
-	}
-]
 
-var longNames = [
-	{
-		firstName: "Jane",
-		lastName: "Doe"
-	},
-	{
-		firstName: "John",
-		lastName: "Smith"
-	}
-];
 
-var longNames = [
-	{
-		firstName: "Jane",
-		lastName: "Doe"
-	},
-	{
-		firstName: "John",
-		lastName: "Smith"
-	}
-];
 console.log("Type de longnames:", typeof longNames[0].firstName);
 console.log(longNames[0].lastName);
 
